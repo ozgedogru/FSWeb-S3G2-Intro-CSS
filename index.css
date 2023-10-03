@@ -5,7 +5,7 @@
 
 .navigation a {
   display: inline-block;
-  margin: 1rem 6rem 4rem 6rem;
+  margin: 1rem 9rem 4rem 9rem;
   box-sizing: border-box;
   border-radius: 1rem;
   padding: 1rem;
@@ -14,25 +14,33 @@
 }
 
 .navigation a {
-  width: 8rem;
+  width: 10rem;
   height: 4rem;
-  background-color: #ff764e;
   vertical-align: top;
 }
 
-div > img {
+div > .id {
   width: 15rem;
   height: 15rem;
   border-radius: 50%;
   object-fit: cover;
   object-position: left;
+  margin-left: 1rem;
+}
+
+div img {
+  width: 5rem;
+  height: 5rem;
 }
 
 h1 {
   font-family: "Chelsea Market";
+  margin: 1rem;
 }
+
 .banner {
-  display: inline;
+  display: flex;
+  margin-left: 1rem;
 }
 
 .explan {
@@ -46,13 +54,18 @@ h1 {
 
 .container {
   display: block;
-  margin: 0 auto;
-  width: 15rem;
+  margin: 1rem 35rem;
+  margin-bottom: 5rem;
+  width: 20rem;
   text-align: center;
-  font-family: "Roboto Mono";
   font-size: 1rem;
 }
 
 .bold {
   font-weight: bold;
+}
+
+footer img {
+  height: 30rem;
+  object-position: top;
 }
