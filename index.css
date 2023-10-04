@@ -2,6 +2,10 @@
   margin: 0;
   font-family: "Roboto Mono";
 }
+.navigation {
+  display: block;
+  width: 1500px;
+}
 
 .navigation a {
   display: inline-block;
@@ -66,6 +70,9 @@ h1 {
 }
 
 footer img {
-  height: 30rem;
+  overflow: hidden;
+  object-fit: cover;
   object-position: top;
+  width: 1500px;
+  height: 250px;
 }
